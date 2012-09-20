@@ -44,6 +44,17 @@ I'll try to handle it using the simplest method I can think of.
 
 Of course, we assume the raw data is ready. 
 
+Conventions
+----
+
+   * I will list the pre-requisite cases and required data sets 
+   at the beginning of each case. 
+   * Uncompress the referred data set and you will get a 
+   directory with the name "data". 
+   * We usually assume the current working directory (CWD) is 
+   one level up "data". 
+   * Else, please follow the command line execution to see the CWD. 
+
 FAQ
 ----
 
