@@ -17,9 +17,9 @@ This is especially true if your working environment spans mutiple machines.
 
 Now the question is: How to perform personal IR in an agile manner?
 
-   * Install extra (probably non-standard, non-open-source) software?? <red>[NO]</red>
-   * I learned IR before. I'll write my own IR system... <red>[NO]</red>
-   * Upload everything on my own website and let Google index it... <red>[NO]</red>
+   * Install extra (probably non-standard, non-open-source) software?? **[NO]**
+   * I learned IR before. I'll write my own IR system... **[NO]**
+   * Upload everything on my own website and let Google index it... **[NO]**
 
 What agile-ir Is About?
 ----
