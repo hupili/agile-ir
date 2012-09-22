@@ -53,7 +53,14 @@ Conventions
    directory with the name "data". 
    * We usually assume the current working directory (CWD) is 
    one level up "data". 
-   * Else, please follow the command line execution to see the CWD. 
+   * Else, please follow the command line execution 
+   or read context to see the CWD. 
+   * I will list the tools used in each case at the beginning of each document. 
+   If you are practicing a certain tool, that will be a 
+   good source to help you find good use cases. 
+   How to find them? 
+   Well, after reading several tutorials in agile-ir, 
+   you should be able to do that in a few minutes!
 
 FAQ
 ----
