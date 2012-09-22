@@ -135,6 +135,18 @@ you will see plain-text-formatted paragraphs like
 
 OK, that is the raw text we are going to use in other cases of this repo. 
 
+
+## Remarks
+
+### About wget
+
+   * wget provide function of recursive download ("-r"). 
+   It can be used to fast download the webpages. 
+   Our method avoid downloading many pages we don't have interest, 
+   thus lowering the burden of target server. 
+
+### From HTML to pure text
+
 There are many ways to strip HTML off. 
 e.g. 
 Store the following to "strip.php":
@@ -154,10 +166,3 @@ $cat play/allswell.html | ./strip.php
 You can also use 'sed' to substitute every "<xxx>" with empty. 
 Those methods have some caveats but still workable. 
 In some scenarios they suffice to get what we want. 
-
-## Remarks
-
-   * wget provide function of recursive download ("-r"). 
-   It can be used to fast download the webpages. 
-   Our method avoid downloading many pages we don't have interest, 
-   thus lowering the burden of target server. 
