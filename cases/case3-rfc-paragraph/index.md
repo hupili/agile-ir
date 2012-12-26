@@ -30,7 +30,7 @@ Squeeze the paragraphs for further use:
 
 ```
 $cat rfc4862.txt | sed 's/^$/__paragraph__/' | tr -d "\n" | sed 's/__paragraph__/\n/g' > rfc4862.txt.p
-$less 
+$less rfc4862.txt.p
     ...
 1.  Introduction
    This document specifies the steps a host takes in deciding how to   autoconfigure its interfaces in IP version 6 (IPv6).  The   autoconfiguration process includes generating a link-local address,   generating global addresses via stateless address autoconfiguration,   and the Duplicate Address Detection procedure to verify the   uniqueness of the addresses on a link.
