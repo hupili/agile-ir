@@ -155,3 +155,7 @@ except that `-i` allows you to control the position to embed the arguments.
 However, as shown above, the use cases are different. 
 Flexible use of `xargs` can save one from writing looping scripts. 
 
+## Reminder
+
+   * Fair use for the PDF book.
+   * Help spread the word if you find useful.
