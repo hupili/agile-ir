@@ -140,6 +140,8 @@ Now we have the single PDF document `common-lisp-book.pdf`.
 
 ## Remarks
 
+### xargs -i 
+
 Note the following are equivalent
 (if not constrained by maximum number of parameters):
 
@@ -155,7 +157,17 @@ except that `-i` allows you to control the position to embed the arguments.
 However, as shown above, the use cases are different. 
 Flexible use of `xargs` can save one from writing looping scripts. 
 
+### Download the Figures
+
+One may notice that we missed the figures in the output PDF. 
+This is left out intentionally. 
+With all stuffs presented in `agile-ir` project, 
+you can do it in 1 minute. 
+
+Enjoy the book in your favourate reader!
+
 ## Reminder
 
    * Fair use for the PDF book.
    * Help spread the word if you find useful.
+
