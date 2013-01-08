@@ -1,0 +1,62 @@
+3	1
+7	2
+9	2.1 Probability Distributions on Graphs
+11	2.2 Conditional Independence
+13	2.4 Applications
+25	2.5 Exact Inference Algorithms
+35	2.6 Message-passing Algorithms for Approximate Inference
+37	3
+39	3.2 Basics of Exponential Families
+41	3.3 Examples of Graphical Models in Exponential Form
+51	3.4 Mean Parameterization and Inference Problems
+61	3.5 Properties of A
+67	3.6 Conjugate Duality: Maximum Likelihood and Maximum Entropy
+73	3.7 Computational Challenges with High-Dimensional Models
+75	4
+77	4.1 Sum-Product and Bethe Approximation
+99	4.2 Kikuchi and Hypertree-based Methods
+109	4.3 Expectation-Propagation Algorithms
+127	5
+129	5.2 Optimization and Lower Bounds
+135	5.3 Naive Mean Field Algorithms
+139	5.4 Nonconvexity of Mean Field
+143	5.5 Structured Mean Field
+148	6
+149	6.1 Estimation in Fully Observed Models
+153	6.2 Partially Observed Models and Expectation–Maximization
+159	6.3 Variational Bayes
+165	7
+167	7.1 Generic Convex Combinations and Convex Surrogates
+171	7.2 Variational Methods from Convex Relaxations
+183	7.3 Other Convex Variational Methods
+187	7.4 Algorithmic Stability
+189	7.5 Convex Surrogates in Parameter Estimation
+195	8
+197	8.1 Variational Formulation of Computing Modes
+199	8.2 Max-product and Linear Programming on Trees
+203	8.3 Max-product For Gaussians and Other Convex Problems
+205	8.4 First-order LP Relaxation and Reweighted Max-product
+227	8.5 Higher-order LP Relaxations
+234	9
+235	9.1 Moment Matrices and Their Properties
+239	9.2 Semideﬁnite Bounds on Marginal Polytopes
+249	9.3 Link to LP Relaxations and Graphical Structure
+253	9.4 Second-order Cone Relaxations
+255	10
+258	Acknowledgments
+259	A
+261	A.2 Basics of Convex Sets and Functions
+267	B
+269	B.2 Proof of Theorem 3.4
+271	B.3 General Properties of M and A∗
+273	B.4 Proof of Theorem 4.2(b)
+275	C
+277	C.2 Gaussian with Unknown Covariance
+279	C.3 Gaussian Mode Computation
+280	D
+281	D.1 Covering Augmented Hypergraphs
+285	D.2 Speciﬁcation of Compatibility Functions
+286	E
+287	E.2 Auxiliary Result for Proposition 9.3
+289	E.3 Pairwise Markov Random Fields
+290	References
