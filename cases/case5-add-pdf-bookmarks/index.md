@@ -100,11 +100,11 @@ I excerpt
 [the description](http://stackoverflow.com/a/3108884/1772926)
 here for your convenience:
 
-> `[/Page 1 /View [/XYZ null null null] /Title (File 1) /OUT pdfmark`
-> The `[/XYZ null null null]` 
-> part makes sure your page viewport and zoom level does not change from the current one when you follow the link. 
-> (You could say `[/XYZ 222 111 2]` to do this, if you want an arbitrary example.)
-> The `/Title (some string you want)` thingie determines what text is in the ToC.
+>    * `[/Page 1 /View [/XYZ null null null] /Title (File 1) /OUT pdfmark`
+>    The `[/XYZ null null null]` 
+>    part makes sure your page viewport and zoom level does not change from the current one when you follow the link. 
+>    (You could say `[/XYZ 222 111 2]` to do this, if you want an arbitrary example.)
+>    * The `/Title (some string you want)` thingie determines what text is in the ToC.
 
 ```
 xargs --arg-file=page-header.cmd gs -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -sOutputFile=bm.pdf -f origin.pdf
