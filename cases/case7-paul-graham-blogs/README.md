@@ -10,5 +10,7 @@ One can use the following steps:
 2. Use pandoc to convert HTML into PDF: `ls -1 paulgraham.com | xargs -I{}  pandoc -f html -t html5 -o pdfs/{}.pdf paulgraham.com/{}`
 3. Merge the PDFs into one: `pdftk pdfs/* cat output all.pdf`
 
+The final output (`all.pdf`) is not hosted in this repo for copyright concern. You can repeat those steps to make yourself a PDF book. You are hacker right? It's good stuff to read on the a long haul airplane. :).
+
 ![](screenshot-toc.png)
 ![](screenshot-bad-econ.png)
